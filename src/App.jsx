@@ -1,4 +1,5 @@
 import Card from "./components/Card"
+import Footer from "./components/Footer";
 import posts from "./data/posts.json"
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           })
         }
       </div>
+      <Footer></Footer>
 
     </>
   )
